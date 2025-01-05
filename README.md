@@ -5,10 +5,7 @@ Ce projet en Kotlin Multiplatform est une application conçue poàur qu'une pers
 
 ## Description
 
-PokedexPokemon permet de consulter la liste des pokémons présent aujourd'hui en les récupérants de manières paginée, une page spécial permet de connaître toutes les stastiques a connaitre sur lui ainsi que même entrendre son cri.
-Également il est aussi possible de consulter l'entiereté des cartes sur lequels le pokémon y figure, de manière paginée également.
-
-Par la suite j'ai prévu d'implémenter un système de "deck", où l'utilisateur pourra se constituer puis sauvegarder des cartes qu'il possède dans un ou plusieurs decks
+Simple application pour monter en compétence sur KMM, technologie en laquelle je crois beaucoup.
 
 ## Fonctionnalités
 
