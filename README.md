@@ -1,26 +1,38 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
+# KMP-test
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-    - `commonMain` is for code that’s common for all targets.
-    - Other folders are for Kotlin code that will be compiled for only the platform indicated in the
-      folder name.
-      For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-      `iosMain` would be the right folder for such calls.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for
-  your project.
+Ce projet en Kotlin Multiplatform est une application conçue poàur qu'une personne puisse ajouter un point sur une map.
 
-Learn more
-about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+## Description
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack
-channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them
-on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
+PokedexPokemon permet de consulter la liste des pokémons présent aujourd'hui en les récupérants de manières paginée, une page spécial permet de connaître toutes les stastiques a connaitre sur lui ainsi que même entrendre son cri.
+Également il est aussi possible de consulter l'entiereté des cartes sur lequels le pokémon y figure, de manière paginée également.
 
-You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle
-task.
+Par la suite j'ai prévu d'implémenter un système de "deck", où l'utilisateur pourra se constituer puis sauvegarder des cartes qu'il possède dans un ou plusieurs decks
+
+## Fonctionnalités
+
+* Auto-complétion du champs de recherche d'adresse
+* Appuie sur la map déclenche l'ajout
+* Mise en base de donnée locale
+
+## Architecture
+
+*   Clean Architecture
+*   MVVM
+  
+## Technologies utilisées
+
+*   Kotlin
+*   Compose
+*   Maps 
+*   Koin (injection dépendance ViewModel, autre ...)
+*   KTOR (Coroutine, DTO)
+*   Room (Entity) 
+
+  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/830bd492-02b1-4730-8803-14d426c15821" width="10%" height="10%" />
+<img src="https://github.com/user-attachments/assets/d5ed1c50-128b-4116-9a59-315ab65ce09e" width="10%" height="10%" />
+<img src="https://github.com/user-attachments/assets/a6843315-1b51-4c9a-aefe-b151b2c36191" width="10%" height="10%" />
+</p>
